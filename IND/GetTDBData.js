@@ -43,7 +43,7 @@
     // Download the data
     myConnector.getData = function(table, doneCallback) {		
 		$.ajax({
-		url: "https://neilvince13.github.io/dev.thedatabase.net/api/accounts/27277/tables/7936/records",
+		url: "http://dev.thedatabase.net/api/accounts/27277/tables/7936/records",
 		type: "GET",
 		dataType: "json",
 		beforeSend: function (xhr){
